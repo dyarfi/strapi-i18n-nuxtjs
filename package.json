@@ -1,5 +1,5 @@
 {
-  "name": "strapi-starter",
+  "name": "strapi-postgres",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,17 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "4.0.0",
-    "@strapi/plugin-i18n": "4.0.0",
-    "@strapi/plugin-users-permissions": "4.0.0",
-    "@strapi/strapi": "4.0.0",
-    "mysql": "2.18.1"
+    "@strapi/strapi": "4.0.7",
+    "@strapi/plugin-users-permissions": "4.0.7",
+    "@strapi/plugin-i18n": "4.0.7",
+    "pg": "8.6.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "2d5d70cc-4ecb-488b-9639-40bb351b7ade"
+    "uuid": "f0f24d65-ae46-40fe-b298-e7e435324948"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
